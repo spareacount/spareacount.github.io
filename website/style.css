@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "perpetua";
+  font-size:1rem;
+  line-height:1.5;
+  overflow-x: hidden;
+}
+
+
+
+.container{
+  max-width: 960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  right:;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+  z-index:-1
+}
+
+.fullscreen-video-wrap{
+  min-width:100%;
+  min-height:100%;
+}
