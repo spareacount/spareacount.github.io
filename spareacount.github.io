@@ -1,0 +1,98 @@
+<html><head>
+ <style>
+     body {
+  background: #202020;
+  padding: 20px 0;
+}
+.my-container {
+    position: relative;
+    background: #696969;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url('maxresdefault.jpg');
+    background-repeat: yes-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.text h1 {
+    padding: 20px;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    color: #ff0fff;
+    font-size: 75px;
+} 
+.text1 {
+  padding: 0px;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    color: #0dd;
+    font-size: 25px;
+    font-weight: bold;
+}
+ .text2 {
+  padding: 0px;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    color: #0dd;
+    font-size: 25px;
+    font-weight: bold;
+}
+ .text3 {
+  padding: 0px;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    color: #0dd;
+    font-size: 25px;
+    font-weight: bold;
+}
+ .text4 {
+  padding: 0px;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    color: #0dd;
+    font-size: 25px;
+    font-weight: bold;
+}
+ .text5 {
+  padding: 0px;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    color: #0dd;
+    font-size: 25px;
+    font-weight: bold;
+}
+ .text6 {
+  padding: 0px;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    color: #0dd;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+</style></head>
+<body>
+      <div class="text">
+      <h1 class="text">Welcome to teh website</h1>
+      <a href="media.html" class="text1" id="permalink_section">-media</a><br><br><br>
+      <a href="music.html" class="text4" id="permalink_section">-music</a><br><br><br>
+      <a href="website.html" class="text6" id="permalink_section">-misc</a><br><br><br>
+      </div>
+      <div class="my-container">
+      </div>
+ 
+
+
+</body></html>
